@@ -10,9 +10,7 @@ store.subscribe(() => console.log("Store Updated:", store.getState()));
 class App extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			isloggedin: null
-		};
+		
 	}
 
 	
